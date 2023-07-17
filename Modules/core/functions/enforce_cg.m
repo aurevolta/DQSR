@@ -39,6 +39,7 @@ q=a0(1:4,:);
 dq=da0(1:4,:);
 
 % initialize
+[a,da] = deal(zeros(size(a0),'like',a0));
 [t,dt]=deal(zeros(4,n,'like',a0));
 [J,dJ]=deal(zeros(8,dof,n,'like',a0));
 J(1:4,:,:)=J0(1:4,:,:);
@@ -67,11 +68,7 @@ for i=1:n
     
     Jeta=sum(Jxi(:,:,index),3);
     dJeta=sum(dJxi(:,:,index),3);    
-    
-    
-    
-    
-    
+
     % position quaternion
     t(:,i)=K(i)*a0(5:8,i)-invM*crossqm(q(:,i))*eta;
     dt(:,i)=K(i)*da0(5:8,i)-invM*(crossqm(q(:,i))*deta+crossqm(dq(:,i))*eta);
@@ -81,10 +78,13 @@ for i=1:n
     dJ(5:8,:,i)=K(i)*dJ0(5:8,:,i)-invM*(crossqm(q(:,i))*dJeta+crossqp(eta)*dJ0(1:4,:,i)+...
         crossqm(dq(:,i))*Jeta+crossqp(deta)*J0(1:4,:,i));
     
+    % update state
+    a(:,i) = [q(:,i);t(:,i)];
+    da(:,i) = [dq(:,i);dt(:,i)];
 end
 
 % output the state
-a=[q;t];
-da=[dq;dt];
+% a(:,:) = [q;t];
+% da(:,:) = [dq;dt];
 
 end
