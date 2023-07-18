@@ -1,72 +1,52 @@
-function [a,da,J,dJ,C_phi,C_C,C_dC,ext_f,n_bodies,Fcg]=OR_sys_gen(x,dx,xcg,vcg,time,II,ext_forces)
+function [sys]=OR_sys_gen(x,dx,xcg,vcg,time,II,ext_forces,xi,gravity_fun)
 % orbital robot sys gen function
 
-mu=3.986*10^5*1e9; %km^3/s^2
 
-% state
-q0=x(1:4,1);
-dq0=dx(1:4,1);
-Theta=x(5:11,1);
-dTheta=dx(5:11,1);
-q0=q0./norm(q0);
+% system size
+n_joints = 7;
+n_bodies = 1 + n_joints;
+n_var = length(x);
 
+% state 
+q0 = x(1:4,1);
+q0 = q0./norm(q0);
+dq0 = dx(1:4,1);
+Theta = x(5:11,1);
+dTheta = dx(5:11,1);
 
-% load important geometrical data
-[~,rj_axis,l_cg,b_cg,dqs0]=robotic_arm_parameters;
-
-
-n_bodies=8;
-n_joints=7;
-
-%% computation
-
-setz=['R','R','R','R','R','R','R'];
-
-[a0,da0,J0,dJ0]=robotic_arm([q0;zeros(4,1)],[dq0;zeros(4,1)],rj_axis,Theta,dTheta,setz,l_cg,b_cg,dqs0,4,[eye(4);zeros(4)]);
-[a,da,J,dJ]=enforce_cg(a0,da0,J0,dJ0,II(end,:));
-
-%% forces
-
-% base attitude forces and torques
-R4=crossqp(q0)*(crossqm(q0)');
-R=R4(1:3,1:3);
-ext_f=gfa(a(:,1),J(:,:,1),R*ext_forces(4:6),R*ext_forces(1:3),1);
-
-% CG forces = gravity + control forces
-Fcg=-mu/(norm(xcg)^3)*xcg*sum(II(end,:))+R*ext_forces(4:6);
+% constraints
+C_phi = (q0'*q0-1);
+C_C = [q0', zeros(1,n_joints)];
+C_dC = [dq0', zeros(1,n_joints)];
 
 
-% control torques (inserted directly on the active dofs)
-control_forces=ext_forces(7:(6+n_joints),1);
-ext_f=ext_f+[zeros(4,1);control_forces];
+% create data structure
+sys = systemS(n_bodies,x,dx,xcg(:,1),vcg(:,1),time,gravity_fun,C_C,C_dC);
 
-%% constraints
+% robotic arm
+[~,rj_axis,l_cg,b_cg,dqs0] = OR_robotic_arm_parameters;
+DQS0 = [dqs0,repmat(zdq,1,6)];
+arm_Torque = ext_forces(7:13);
 
-C_phi=(q0'*q0-1);
-C_C=[q0',zeros(1,n_joints)];
-C_dC=[dq0',zeros(1,n_joints)];
+%% complete the system
+
+% base
+B1 = rigidBASEbodyS(II(:,1),q0,dq0,n_var);
+B1.body_f=[ext_forces(4:6);ext_forces(1:3)];
+B1.body_f_loc=zeros(3,1);
+
+sys = add_body(sys,1,B1);
+
+% initialize chain of bodies
+B = B1;
+
+for j = 2 : n_bodies
+    B = rigidLINKbodyS(II(:,j),B,DQS0(:,j-1),n_var,3+j,'R',l_cg(:,j-1),...
+        b_cg(:,j-1),rj_axis(:,j-1),Theta(j-1),dTheta(j-1),arm_Torque(j-1));
+    sys = add_body(sys,j,B);
+end
 
 end
 
 
 
-function [lengths,rj_axis,l_cg,b_cg,dqs0]=robotic_arm_parameters
-
-rx=[1;0;0];ry=[0;1;0];rz=[0;0;1];
-
-% rj_axis=[rz,ry,rz,ry,rz,ry,rz];
-rj_axis=[rz,ry,rx,ry,rx,ry,rx];
-
-% link lengths
-lengths=[0.1,1,0.2,0.8,0.1,0.1,0.05];
-
-l_cg=([-ry,-rx,ry,rx,-ry,-rx,rx].*([1;1;1]*lengths/2));
-b_cg=([-ry,-rx,ry,rx,-ry,-rx,rx].*([1;1;1]*lengths/2));
-l_cg=[zeros(3,1),l_cg(:,1:end)];
-
-% dx0=[0.25;0;1/2+0.05];
-dx0=[0.75;0;1/2+0.05];
-dqs0=[0;0;0;1;dx0/2;0];
-
-
-end
