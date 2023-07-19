@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info>
+    <Files>
+        <File path=".gitmodules" value="6ce2ea5d" />
+        <File path="Contents.m" value="b330a100" />
+        <File path="DQ_toolbox.prj" value="fe84b66d" />
+        <File path="LICENSE" value="db1c553a" />
+        <File path="LVLH_circular.m" value="6ea00f4c" />
+        <File path="Q_toolbox/Contents.m" value="7b65bff3" />
+        <File path="Q_toolbox/LICENSE" value="db1c553a" />
+        <File path="Q_toolbox/Q_toolbox.prj" value="fe84b66d" />
+        <File path="Q_toolbox/README.md" value="9ab96b82" />
+        <File path="Q_toolbox/crossm.m" value="d1424587" />
+        <File path="Q_toolbox/crossmt.m" value="76f425e3" />
+        <File path="Q_toolbox/crossqm.m" value="823f7b67" />
+        <File path="Q_toolbox/crossqmt.m" value="60b1c46" />
+        <File path="Q_toolbox/crossqp.m" value="7de960c4" />
+        <File path="Q_toolbox/crossqpt.m" value="a0da7d9d" />
+        <File path="Q_toolbox/dcm2q.m" value="9de61ce4" />
+        <File path="Q_toolbox/html/quat_demo.html" value="a4372e19" />
+        <File path="Q_toolbox/html/quat_demo.png" value="b34415e5" />
+        <File path="Q_toolbox/html/quat_demo_01.png" value="a1a0d70d" />
+        <File path="Q_toolbox/html/quat_demo_eq02453340457346817438.png" value="56da2c4a" />
+        <File path="Q_toolbox/html/quat_demo_eq03014854192107756594.png" value="58f8138e" />
+        <File path="Q_toolbox/html/quat_demo_eq03360148278618264247.png" value="37fc82cb" />
+        <File path="Q_toolbox/html/quat_demo_eq07564428659214248220.png" value="ad78b79e" />
+        <File path="Q_toolbox/html/quat_demo_eq09245797785595715646.png" value="45fb60cb" />
+        <File path="Q_toolbox/html/quat_demo_eq09502527780284336891.png" value="e6c4967" />
+        <File path="Q_toolbox/html/quat_demo_eq15491007682626837763.png" value="9719d77" />
+        <File path="Q_toolbox/html/quat_demo_eq15807777413547425986.png" value="fa583604" />
+        <File path="Q_toolbox/html/quat_demo_eq17916092050865848667.png" value="ffffda01" />
+        <File path="Q_toolbox/html/quat_demo_eq18350267582149406287.png" value="4afd3411" />
+        <File path="Q_toolbox/html/quat_demo_eq18382765303637655037.png" value="906c455b" />
+        <File path="Q_toolbox/html" value="-1" />
+        <File path="Q_toolbox/minimal2q.m" value="c261ec92" />
+        <File path="Q_toolbox/q2dcm.m" value="9c5aec5b" />
+        <File path="Q_toolbox/q2minimal.m" value="e37f30c7" />
+        <File path="Q_toolbox/q_gen.m" value="8eb53753" />
+        <File path="Q_toolbox/qconj.m" value="99a07ef1" />
+        <File path="Q_toolbox/quat_demo.m" value="e785575" />
+        <File path="Q_toolbox/quat_normalize.m" value="7069267f" />
+        <File path="Q_toolbox/quatnormalize.m" value="825ab99e" />
+        <File path="Q_toolbox/randq.m" value="4bee222" />
+        <File path="Q_toolbox/randqn.m" value="c512f27c" />
+        <File path="Q_toolbox/resources/project/Project.xml" value="d8fe8231" />
+        <File path="Q_toolbox/resources/project/ProjectData.type.Info.xml" value="3a2af962" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category.xml" value="bb05bc8d" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/artifact.type.Label.xml" value="d392500b" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/convenience.type.Label.xml" value="7ab9fc4a" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/derived.type.Label.xml" value="c25475c3" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/design.type.Label.xml" value="afc31ba7" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/none.type.Label.xml" value="bf4f871a" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/other.type.Label.xml" value="715b2bb2" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category/test.type.Label.xml" value="148c5ac0" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories/FileClassCategory.type.Category" value="-1" />
+        <File path="Q_toolbox/resources/project/Root.type.Categories" value="-1" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/Contents.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/LICENSE.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/README.md.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/crossm.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/crossmt.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/crossqm.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/crossqmt.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/crossqp.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/crossqpt.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/dcm2q.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/1.type.DIR_SIGNIFIER.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo.html.type.File.xml" value="78f6a0df" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_01.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq02453340457346817438.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq03014854192107756594.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq03360148278618264247.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq07564428659214248220.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq09245797785595715646.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq09502527780284336891.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq15491007682626837763.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq15807777413547425986.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq17916092050865848667.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq18350267582149406287.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File/quat_demo_eq18382765303637655037.png.type.File.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/html.type.File" value="-1" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/minimal2q.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/q2dcm.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/q2minimal.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/q_gen.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/qconj.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/quat_demo.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/quat_normalize.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/quatnormalize.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/randq.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/randqn.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files/zq.m.type.File.xml" value="6827d0ff" />
+        <File path="Q_toolbox/resources/project/Root.type.Files" value="-1" />
+        <File path="Q_toolbox/resources/project/Root.type.ProjectPath/7ad6884f-467a-4500-bc0d-3261ce6b0ee9.type.Reference.xml" value="77b500aa" />
+        <File path="Q_toolbox/resources/project/Root.type.ProjectPath" value="-1" />
+        <File path="Q_toolbox/resources/project/uuid-82e7a5f8-be38-47ea-8d5b-6b9cdeeb9541.xml" value="8f31f7d0" />
+        <File path="Q_toolbox/resources/project" value="-1" />
+        <File path="Q_toolbox/resources" value="-1" />
+        <File path="Q_toolbox/zq.m" value="3c5e227" />
+        <File path="Q_toolbox" value="-1" />
+        <File path="README.md" value="1f3ec341" />
+        <File path="cartesian2dq.m" value="17fcbc34" />
+        <File path="dq2cartesian.m" value="591fe367" />
+        <File path="dq2minimal.m" value="e6f68419" />
+        <File path="dq_conj.m" value="53ad1ee2" />
+        <File path="dqdivm.m" value="b3a0b550" />
+        <File path="dqdivmt.m" value="46986477" />
+        <File path="dqdivp.m" value="20f3dd0a" />
+        <File path="dqdivpt.m" value="38929ff0" />
+        <File path="dqprodm.m" value="f0817ce" />
+        <File path="dqprodmt.m" value="59e938ed" />
+        <File path="dqprodp.m" value="470c15af" />
+        <File path="dqprodpt.m" value="dce1def5" />
+        <File path="minimal2dq.m" value="a5cecb01" />
+        <File path="randdq.m" value="955a62f3" />
+        <File path="resources/project/Project.xml" value="d8fe8231" />
+        <File path="resources/project/ProjectData.type.Info.xml" value="9f4abcbb" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category.xml" value="bb05bc8d" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/artifact.type.Label.xml" value="d392500b" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/convenience.type.Label.xml" value="7ab9fc4a" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/derived.type.Label.xml" value="c25475c3" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/design.type.Label.xml" value="afc31ba7" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/none.type.Label.xml" value="bf4f871a" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/other.type.Label.xml" value="715b2bb2" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category/test.type.Label.xml" value="148c5ac0" />
+        <File path="resources/project/Root.type.Categories/FileClassCategory.type.Category" value="-1" />
+        <File path="resources/project/Root.type.Categories" value="-1" />
+        <File path="resources/project/Root.type.Files/Contents.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/LICENSE.type.File.xml" value="8f31f7d0" />
+        <File path="resources/project/Root.type.Files/LVLH_circular.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/README.md.type.File.xml" value="8f31f7d0" />
+        <File path="resources/project/Root.type.Files/cartesian2dq.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dq2cartesian.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dq2minimal.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dq_conj.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqdivm.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqdivmt.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqdivp.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqdivpt.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqprodm.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqprodmt.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqprodp.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/dqprodpt.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/minimal2dq.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/randdq.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files/zdq.m.type.File.xml" value="6827d0ff" />
+        <File path="resources/project/Root.type.Files" value="-1" />
+        <File path="resources/project/Root.type.ProjectPath/ec80e34e-e144-4024-8623-fb439ef0196c.type.Reference.xml" value="77b500aa" />
+        <File path="resources/project/Root.type.ProjectPath" value="-1" />
+        <File path="resources/project/Root.type.References/c346b0f2-8f91-4bab-a9a3-58651106b801.type.Reference.xml" value="32b62401" />
+        <File path="resources/project/Root.type.References/c346b0f2-8f91-4bab-a9a3-58651106b801.type.Reference/bdd5b159-fe87-4e96-bef4-b33e58faee74.type.snapshot.xml" value="288c478d" />
+        <File path="resources/project/Root.type.References/c346b0f2-8f91-4bab-a9a3-58651106b801.type.Reference" value="-1" />
+        <File path="resources/project/Root.type.References" value="-1" />
+        <File path="resources/project/uuid-720f4e1d-d02a-4361-bbd7-d5b14380f16d.xml" value="8f31f7d0" />
+        <File path="resources/project" value="-1" />
+        <File path="resources" value="-1" />
+        <File path="zdq.m" value="47579764" />
+    </Files>
+    <MetadataNode>
+        <path value="ProjectData:type:Info">
+            <node name="Info">
+                <entry value="DQ_toolbox" key="Name" />
+            </node>
+        </path>
+        <path value="Root:type:Categories">
+            <path value="FileClassCategory:type:Category">
+                <node name="Info">
+                    <entry value="None" key="DataType" />
+                    <entry value="Classification" key="Name" />
+                    <entry value="1" key="ReadOnly" />
+                    <entry value="1" key="SingleValued" />
+                </node>
+                <path value="artifact:type:Label">
+                    <node name="Info">
+                        <entry value="Artifact" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+                <path value="convenience:type:Label">
+                    <node name="Info">
+                        <entry value="Convenience" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+                <path value="derived:type:Label">
+                    <node name="Info">
+                        <entry value="Derived" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+                <path value="design:type:Label">
+                    <node name="Info">
+                        <entry value="Design" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+                <path value="none:type:Label">
+                    <node name="Info">
+                        <entry value="None" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+                <path value="other:type:Label">
+                    <node name="Info">
+                        <entry value="Other" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+                <path value="test:type:Label">
+                    <node name="Info">
+                        <entry value="Test" key="Name" />
+                        <entry value="READ_ONLY" key="ReadOnly" />
+                    </node>
+                </path>
+            </path>
+        </path>
+        <path value="Root:type:Files">
+            <path value="Contents.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="LICENSE:type:File">
+                <node name="Info" />
+            </path>
+            <path value="LVLH_circular.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="README.md:type:File">
+                <node name="Info" />
+            </path>
+            <path value="cartesian2dq.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dq2cartesian.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dq2minimal.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dq_conj.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqdivm.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqdivmt.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqdivp.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqdivpt.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqprodm.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqprodmt.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqprodp.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="dqprodpt.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="minimal2dq.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="randdq.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+            <path value="zdq.m:type:File">
+                <node name="Info">
+                    <node name="Category">
+                        <entry value="FileClassCategory" key="UUID" />
+                        <node name="Label">
+                            <entry value="design" key="UUID" />
+                        </node>
+                    </node>
+                </node>
+            </path>
+        </path>
+        <path value="Root:type:ProjectPath">
+            <path value="ec80e34e-e144-4024-8623-fb439ef0196c:type:Reference">
+                <node name="Info">
+                    <entry value="" key="Ref" />
+                    <entry value="Relative" key="Type" />
+                </node>
+            </path>
+        </path>
+        <path value="Root:type:References">
+            <path value="c346b0f2-8f91-4bab-a9a3-58651106b801:type:Reference">
+                <node name="Info">
+                    <entry value="Q_toolbox" key="Ref" />
+                    <entry value="Relative" key="Type" />
+                </node>
+            </path>
+        </path>
+    </MetadataNode>
+    <Date value="July 14, 2023 11:39:24 AM" />
+</Info>

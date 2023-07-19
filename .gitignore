@@ -1,0 +1,15 @@
+slprj/
+**/slprj/
+**/html/
+*.mat
+*.txt
+*.autosave
+*.mexw64
+*.asv
+*.zip
+*.slxc
+*.app
+*.exe
+*.war
+Thumbs.db
+.DS_Store
